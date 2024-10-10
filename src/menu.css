@@ -1,0 +1,30 @@
+.menu{
+  background-color: #F1F1F1;
+  display: flex;
+  align-items: center;
+}
+
+.titles{
+    margin-left: 22px;
+    padding: 0%;
+    font-size: medium;
+    color: #5A5954;
+    
+}
+
+.home{
+    size: 10px;
+}
+
+.Homebar{
+    background-color: #F1F1F1;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.hometitle{
+    margin-left: 22px;
+    padding: 0%;
+    font-size: small;
+    color: #CF4E33;}
