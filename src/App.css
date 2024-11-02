@@ -1,5 +1,4 @@
 
-
 body{
   background-image: url("https://images.unsplash.com/photo-1520694478166-daaaaec95b69?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aHVtYW58ZW58MHwwfDB8fHww");
   background-position: center;
@@ -13,7 +12,8 @@ body{
   text-align: center;
   background-color: rgba(229, 214, 198, 0.6);
   border: 1px solid #FFCC00;
-  padding-bottom: 5rem;
+  padding-bottom: 10rem;
+  margin-top: 8.445rem;
 
 }
 

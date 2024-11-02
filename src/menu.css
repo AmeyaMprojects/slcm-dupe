@@ -2,6 +2,12 @@
     .menu-container {
         background-color: #ffffff;
         color: #000000;
+        position: fixed;
+        top: 1rem;
+        left: 5;
+        width: 100%;
+        z-index: 1;
+
       }
       
       .main-nav {
@@ -28,6 +34,8 @@
       
       .nav-links {
         display: flex;
+        
+
       }
       
       .nav-link {
