@@ -5,3 +5,16 @@
   flex-direction: column;
 
 }
+
+.disclamer{
+  margin-left: 12px;
+  text-decoration: underline;
+}
+
+.disclamer_content{
+  margin-left: 12px;
+  margin-right: 12px;
+  font-size: small;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}

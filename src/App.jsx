@@ -32,7 +32,7 @@ function App() {
             <td>Event</td>
             <td>Subject</td>
             <td>Type</td>
-            <td>Details</td>
+            <td className='details'>Details</td>
           </tr>
           <tr>
             <th>BROADCAST</th>

@@ -35,7 +35,9 @@ function Menu() {
     <div className="menu-container">
       <nav className="main-nav">
         <div className="logo-container">
-          <img src="https://slcm.manipal.edu/images/logo.png" alt="Manipal logo" />
+          <a  href='https://www.manipal.edu/mu.html'>
+          <img className='manipal_logo_img' src="https://slcm.manipal.edu/images/logo.png" alt="Manipal logo" />
+          </a>
         </div>
 
         <div className="nav-links">
