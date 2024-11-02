@@ -35,7 +35,7 @@ function Menu() {
     <div className="menu-container">
       <nav className="main-nav">
         <div className="logo-container">
-          <img src="src/assets/logo.png" alt="Manipal logo" />
+          <img src="public\assets\logo.png" alt="Manipal logo" />
         </div>
 
         <div className="nav-links">
@@ -49,7 +49,7 @@ function Menu() {
 
         <div className="user-profile">
           <a href="#">
-            <img className="profile-icon" src="src\assets\profile.webp" alt="Profile" />
+            <img className="profile-icon" src="public\assets\profile.webp" alt="Profile" />
           </a>
         </div>
       </nav>
