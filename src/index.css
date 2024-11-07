@@ -16,8 +16,19 @@
 
     .app{
       margin: 0;
-      margin-top: 8.55rem;
+      margin-top: 7.55rem;
       
+    }
+    .sidebar{
+      display: none;
+    }
+    .menu-container{
+      position: absolute;
+      top: 0;
+      max-width: fit-content;
+    }
+    .announcement{
+      display: none;
     }
 
     .Sidebar {

@@ -7,7 +7,7 @@ function Sidebar() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div className='sidebar'>
     <div  className="fixed left-0 h-80 w-44 mt-4 opacity-85
     flex flex-col
     bg-white text-white shadow-lg">
@@ -19,7 +19,7 @@ function Sidebar() {
       <SideBarIcon  text={'E-notifications'} />
     </div>
        
-    </>
+    </div>
   )
 }
 
