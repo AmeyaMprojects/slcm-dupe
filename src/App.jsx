@@ -14,8 +14,10 @@ function App() {
   ];
 
   return (
+    <>
     
     <div className="app">
+      
       
       <div className="Noti">
         <h3  className='notification'>Notifications</h3>
@@ -80,6 +82,7 @@ function App() {
         </tbody>
       </table>
     </div>
+    </>
   );
 }
 
