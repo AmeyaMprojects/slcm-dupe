@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import { BsPlus, BsFillLightningFill, BsGearFill } from 'react-icons/bs';
+import { FaFire, FaPoo } from 'react-icons/fa';
 
 function App() {
   const data = [
@@ -12,19 +14,15 @@ function App() {
   ];
 
   return (
+    
     <div className="app">
+      
       <div className="Noti">
         <h3  className='notification'>Notifications</h3>
       </div>
       <a href="https://slcm.manipal.edu/UplodedFilePath/EMI_Monthly_Fee_MAHE.pdf" className="hyperlink-1">👉 Introduction of EMI (Monthly) Fee Payment Option for Senior Students at MAHE</a>
       <a href="https://slcm.manipal.edu/UplodedFilePath/Hostel_allotment_policy_for_seniors_2024-25.pdf"  className="hyperlink-1">👉 Hostel allotment policy for seniors 2024-25 - Revised</a>
-      {/* <div className="search-bar">
-        <input
-          type="text"
-          placeholder="Search"
-          onChange={handleSearch}
-        />
-      </div> */}
+
 
       <table className="table">
         <thead>
@@ -84,6 +82,7 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
 

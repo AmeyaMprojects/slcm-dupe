@@ -17,4 +17,13 @@
   font-size: small;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  padding-top: 0.5rem;
+
+}
+
+.bottom_disc{
+  display: flex;
+  justify-content: center;
+  padding-top: 0.5rem;
+
 }
