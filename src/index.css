@@ -9,12 +9,27 @@
     transition-all duration-300 ease-linear
     cursor-pointer shadow-lg ;
   }
-  /* .sidebar-tooltip {
-    @apply absolute w-auto p-2 m-2 min-w-max left-14 rounded-md shadow-md
-    text-white bg-gray-900 
-    text-xs font-bold 
-    transition-all duration-100 scale-0 origin-left;
-  } */
+  @media (max-width: 768px) {
+    .sidebar-icon {
+     display: none;
+    }
+
+    .app{
+      margin: 0;
+      margin-top: 8.55rem;
+      
+    }
+
+    .Sidebar {
+      display: none;
+    }
+
+    /* Hide or adjust tooltip for mobile */
+    .sidebar-tooltip {
+      display: none;
+    }
+  }
+
 }
 
 
