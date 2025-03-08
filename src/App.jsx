@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import { BsPlus, BsFillLightningFill, BsGearFill } from 'react-icons/bs';
-import { FaFire, FaPoo } from 'react-icons/fa';
+// import { BsPlus, BsFillLightningFill, BsGearFill } from 'react-icons/bs';
+// import { FaFire, FaPoo } from 'react-icons/fa';
 
 function App() {
   const data = [
